@@ -1,0 +1,110 @@
+/* Color Pallets - 
+#F4F1DE-white 
+#E07A5F-orangered 
+#3D405B-dark blue 
+#8AA89C-green 
+#F0C57F-yellow */
+
+/* Universal ------------------------*/
+
+@font-face {
+	font-family:'Aloevera-OVoWO';
+	src: url('../Font/Aloevera-OVoWO.ttf');}
+p,li {font-family:optima,verdana,arial;}
+
+Nav {border-style: solid;
+	border-width: 5px;
+	border-color: #E07A5F;
+	border-radius: 25px;
+	text-align:center;
+	top: 10px;
+		background-color: #F4F1DE;
+		font-family: cursive,"brush script MT";
+		font-size: 115%;}
+	
+Div>a {color: #3D405B;
+		padding: 5px;}
+		
+.h1 {font-size: 300%;
+	font-family: cursive, "brush script MT";}
+.h2 {font-family: 'Aloevera-OVoWO';
+	color:#E07A5F;}
+.h3 {font-family: 'Aloevera-OVoWO';
+	color:#E07A5F;}
+#Box4>p {text-align: justify;}
+
+/* Intro Page ------------------------*/
+#Page1 {background-image: url("../Photos/Tree.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center center;
+	background-size: 100%;}
+
+#Box2 {text-align: center;}
+
+#Box3 {text-align: justify;}
+
+#Box4 {text-align: center;}
+	
+#Box5>figcaption {text-align: center;}
+
+/* Link Specific ------------------------*/
+#Page2 {background-color: #8AA89C;}
+#h2_2 {color: #F0C57F;}
+#h3_2 {color: #F0C57F;}
+
+
+
+#Video {text-align: center;}
+
+/* List Specific ------------------------*/
+#Page3 {background-color: #8AA89C;}
+#h2_3 {color: #F0C57F;}
+
+.Name {font-size: 18px;
+		font-family: cursive;
+		color: #3D405B;
+		background-color: #F4F1DE;
+		padding: 18px;}
+		
+.Character {font-size: 16px;
+		color: #F4F1DE;
+		background-color: rgb(61,64,91,50%);
+		border-radius: 10px;
+		padding: 2px;}
+		
+ul>li {padding: 3px;
+		margin:3px;}
+
+/* Character Creator Specific ------------------------*/
+#Page4 {background-image: url("../Photos/Tree.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center center;
+	background-size: 100%;}
+
+#Form {background-color: #8AA89C;}
+
+#Box3_2 {border-style: solid;
+		border-color:#E07A5F; 
+		border-width:2px;
+		padding:10px;
+		border-radius: 10px;
+		background-color: #F4F1DE;}
+		
+#Box4_2 {border-style: solid;
+		border-color:#E07A5F; 
+		border-width:2px;
+		padding:10px;
+		border-radius: 10px;
+		background-color: #F4F1DE;}
+		
+#Box5_2 {border-style: solid;
+		border-color:#E07A5F; 
+		border-width:2px;
+		padding:10px;
+		border-radius: 10px;
+		background-color: #F4F1DE;}
+
+#BoxInfo:focus {background-color: lightgrey;}
+input#submit:hover {background-color: #F4F1DE;}
