@@ -1,0 +1,499 @@
+/* Universal */
+@media only screen and (orientation: landscape)
+{
+
+
+body {min-width: 600px;
+	margin: 5%;}
+
+#C1 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 25px;}
+
+	#B1Logo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:5%;
+			display: flex;
+			align-items: center;
+			min-width:350px;
+			max-width:350px;
+			}
+		
+		#Logo {width:auto;
+				height:auto;
+				max-height:100px;
+				margin: 0;
+				object-fit: contain;
+				align-self: flex-start;}
+
+	#B2Page {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		margin-left:5%;
+		max-height: 100px;
+		min-width: 50%;}
+
+.Margin2 {margin-left: 5%;
+		margin-right: 5%;}	
+
+nav {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		justify-content: center;
+		margin-left: -5%;
+		margin-right: -5%;
+		margin-bottom: 25px;
+		padding: 10px;}
+	
+	nav div{flex: 1;
+		padding-left:10px;
+		padding-right:10px;
+		text-align: center;}
+	#Empty {visibility: hidden;}
+
+
+footer {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-left: -5%;
+		margin-right: -5%;
+		margin-top: 15%;
+		height: 100px;
+		display:grid;
+		grid-template-columns: 1fr .15fr;}
+		
+		
+		#Pinterest {width:50%;
+					margin: auto;
+					display:block;
+					max-height: 100px;
+					width:auto;
+					min-height: 50px;
+					height:auto;}
+
+/* Page 1 */
+
+#B2Intro {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+
+	#B21 {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+	text-align: center;}
+	
+		video {border-style:solid;
+		border-width:5px;
+		border-color:green;
+			width: 500px;}
+	
+	#IntroB22 {border-style:solid;
+			border-width:5px;
+			border-color:orange;
+				margin: 10px auto;
+				max-width:90%;
+				max-height: 400px;
+				display:flex;
+				align-items: center;
+				justify-content: center;}
+		
+#B3Savand {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+	
+	#P1Savand {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		width:90%;}
+	
+#B4Goldenlight {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+	#GoldenIntro {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#GoldenPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+		
+		#P2Guild {width:100%;}
+	
+/* Action Form Page */
+
+#B2 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-top: 25%;
+		margin-bottom: 25%;}
+
+/* Savand */
+
+#B2History {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+
+#Otrar {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#OInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#OPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+		
+		#POtrar {width:100%;}
+
+#Taradlands {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#TInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#TPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+		
+		#PTaradlands {width:100%;}
+
+#Thiir {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#ThInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#ThPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+		
+		#PThiir {width:100%;}
+	
+#Floura {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#FInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#FPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+	
+		#PFloura {width:100%;}
+	
+#Findlaire {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#FiInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#FiPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+	
+		#PFindlaire {width:100%;}
+	
+#Sirdaz {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#SInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#SPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+	
+		#PSirdaz {width:100%;}
+	
+#Shonia {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr .75fr;}
+	
+	#ShInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#ShPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;}
+	
+		#PShonia {width:100%;}
+	
+/* The Guild */
+
+#C2 {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+	
+	#Mae {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#MInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#MPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+		
+			#PMae {width:100%;}
+		
+	#Timber {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#TimInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#TimPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+			
+			#PTimber {width:100%;}
+		
+	#Liz {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#LInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#LPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+		
+			#PLiz {width:100%;}
+		
+	#Onyx {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#OnyInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#OnyPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+		
+		#POnyx {width:100%;}
+	
+	#Luna {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#LuInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#LuPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+		
+			#PLuna {width:100%;}
+		
+	#Irnek {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+		#IrInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;}
+		
+		#IrPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;}
+		
+			#PIrnek {width:100%;}
+		
+/* Get Started */
+
+#C3 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1.25fr .75fr;}
+	
+	#Creator {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		margin: 10px;
+		padding: 25px;}
+	
+		#Form1 {border-style:solid;
+		border-width:5px;
+		border-color:orange;}
+		
+		#Form2{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+		
+		#Form3{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+		
+		#Form4{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+	
+	#Resources {border-style:solid;
+	border-width:5px;
+	border-color:green;}
+
+#C4 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr;}
+	
+	#RefClass {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		margin-bottom: 25px;}
+	
+	#RefRaces {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		margin-bottom: 25px;}
+	
+	#RefAbility {border-style:solid;
+	border-width:5px;
+	border-color:green;
+		margin-bottom: 25px;}
+	
+#C5 {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+}
+	
+	
+/* Media Querry As Landscape Website gets smaller */
+
+	/* Page 1 */
+		@media only screen and (max-width: 1050px)
+			{#B2Intro {
+			max-height: 675px;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr;}
+			}
+	/* Page 2 */
+		@media only screen and (max-width: 1200px)
+			{#Otrar {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#OInfo {
+				height:auto;
+				width:auto;}
+			#Taradlands {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#TInfo {
+				height:auto;
+				width:auto;}
+			#Thiir {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#ThInfo {
+				height:auto;
+				width:auto;}
+			#Floura {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#FInfo {
+				height:auto;
+				width:auto;}
+			#Findlaire {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#FiInfo {
+				height:auto;
+				width:auto;}
+			#Sirdaz {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#SInfo {
+				height:auto;
+				width:auto;}
+			#Shonia {
+			grid-template-columns: 1fr;
+			grid-template-rows: .50fr 1fr;}
+				#ShInfo {
+				height:auto;
+				width:auto;}
+				}
+				
+	/* Page 3 */
+		@media only screen and (max-width: 885px)
+			{#C3 {display:grid;
+				grid-template-columns: 1fr}
+			#C4 {display:grid;
+				grid-template-columns: 1fr;}
+			#Resources {margin-top: 25px;}
+			}	
