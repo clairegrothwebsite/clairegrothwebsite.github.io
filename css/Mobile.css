@@ -345,7 +345,7 @@ footer {border-style:solid;
 		border-width:5px;
 		border-color:yellow;
 			margin-right:10px;
-			max-height: 375px;}
+			max-height: 100%;}
 		
 		#MPic{border-style:solid;
 		border-width:5px;
@@ -369,7 +369,7 @@ footer {border-style:solid;
 		border-width:5px;
 		border-color:yellow;
 			margin-right:10px;
-			max-height: 375px;}
+			max-height: 100%;}
 		
 		#TimPic{border-style:solid;
 		border-width:5px;
@@ -393,7 +393,7 @@ footer {border-style:solid;
 		border-width:5px;
 		border-color:yellow;
 			margin-right:10px;
-			max-height: 375px;}
+			max-height: 100%;}
 		
 		#LPic{border-style:solid;
 		border-width:5px;
@@ -417,7 +417,7 @@ footer {border-style:solid;
 		border-width:5px;
 		border-color:yellow;
 			margin-right:10px;
-			max-height: 375px;}
+			max-height: 100%;}
 		
 		#OnyPic{border-style:solid;
 		border-width:5px;
@@ -465,7 +465,7 @@ footer {border-style:solid;
 		border-width:5px;
 		border-color:yellow;
 			margin-right:10px;
-			max-height: 375px;}
+			max-height: 100%;}
 		
 		#IrPic{border-style:solid;
 		border-width:5px;
