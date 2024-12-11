@@ -119,12 +119,15 @@ footer {border-style:solid;
 		
 #B3Savand {border-style:solid;
 	border-width:5px;
-	border-color:red;}
+	border-color:red;
+		margin-top: 25px;
+		margin-bottom: 25px;}
 	
 	#P1Savand {border-style:solid;
 	border-width:5px;
 	border-color:yellow;
-		width:90%;}
+		width:90%;
+		margin-bottom: 25px;}
 	
 #B4Goldenlight {border-style:solid;
 	border-width:5px;
