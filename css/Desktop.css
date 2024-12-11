@@ -112,7 +112,7 @@ footer {border-style:solid;
 			border-color:orange;
 				margin: 10px auto;
 				max-width:90%;
-				max-height: 400px;
+				max-height: 100%;
 				display:flex;
 				align-items: center;
 				justify-content: center;}
