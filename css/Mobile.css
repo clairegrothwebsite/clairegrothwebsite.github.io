@@ -1,0 +1,553 @@
+@media only screen and (orientation: portrait)
+{/* Universal */
+body {min-width: 600px;
+	margin: 5%;
+	margin-top: 2%;}
+
+#C1 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 25px;}
+
+	#B1Logo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:5%;
+			display: flex;
+			align-items: center;
+			min-width:350px;
+			max-width:350px;
+			}
+		
+		#Logo {width:auto;
+				height:auto;
+				max-height:100px;
+				margin: 0;
+				object-fit: contain;
+				align-self: flex-start;}
+
+	#B2Page {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		margin-left:5%;
+		max-height: 100px;
+		min-width: 50%;}
+
+.Margin2 {margin-left: 5%;
+		margin-right: 5%;}	
+
+nav {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		justify-content: center;
+		margin-left: -5%;
+		margin-right: -5%;
+		margin-bottom: 25px;
+		padding: 10px;}
+	
+	nav div{flex: 1;
+		padding-left:10px;
+		padding-right:10px;
+		text-align: center;}
+	#Empty {visibility: hidden;}
+
+.Headers {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-top: 25px;
+		margin-bottom: 25px;}
+	
+footer {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-left: -5%;
+		margin-right: -5%;
+		margin-top: 15%;
+		height: 100px;
+		display:grid;
+		grid-template-columns: 1fr .15fr;
+		display:flex;
+		align-items: center;
+		justify-content: center;}
+		
+		#Footer1 {border-style:solid;
+			border-width:5px;
+			border-color:red;
+			max-width: 1080px;}
+		
+		#Pinterest {width:50%;
+					margin: auto;
+					display:block;
+					max-height: 100px;
+					width:auto;
+					min-height: 50px;
+					height:auto;}
+
+/* Page 1 */
+
+#B2Intro {
+			max-height: 675px;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr;}
+
+	#B21 {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+	text-align: center;}
+	
+		video {border-style:solid;
+		border-width:5px;
+		border-color:green;
+			width: 500px;}
+	
+	#IntroB22 {border-style:solid;
+			border-width:5px;
+			border-color:orange;
+				margin: 10px auto;
+				max-width:90%;
+				max-height: 400px;
+				display:flex;
+				align-items: center;
+				justify-content: center;}
+		
+#B3Savand {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+	
+	#P1Savand {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		width:90%;}
+	
+#B4Goldenlight {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;}
+	
+	#GoldenIntro {border-style:solid;
+	border-width:5px;
+	border-color:yellow;}
+	
+	#GoldenPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		margin: 0 auto;}
+		
+		#P2Guild {max-height:100%;}
+	
+/* Action Form Page */
+
+#B2 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-top: 25%;
+		margin-bottom: 25%;}
+
+/* Savand */
+
+#B2History {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		margin-bottom: 25px;}
+
+#Otrar {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+		
+	
+	#OInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#OPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+		
+		#POtrar {max-width: 100%;
+			height: auto;
+			object-fit: scale-down;}
+
+#Taradlands {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+	
+	#TInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+
+	
+	#TPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;
+		}
+		
+		#PTaradlands {max-height:750px;
+			width: auto;
+			object-fit: contain;
+			margin: 0 auto;}
+
+#Thiir {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+	
+	#ThInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#ThPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+		
+		#PThiir {max-width: 100%;
+			height: auto;
+			object-fit: scale-down;}
+	
+#Floura {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+	
+	#FInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#FPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+	
+		#PFloura {max-width: 100%;
+			height: auto;
+			object-fit: scale-down;}
+	
+#Findlaire {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+	
+	#FiInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#FiPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+	
+		#PFindlaire {max-height:750px;
+			width: auto;
+			object-fit: contain;
+			margin: 0 auto;}
+	
+#Sirdaz {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 25px;}
+	
+	#SInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#SPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+	
+		#PSirdaz {max-width: 100%;
+			height: auto;
+			object-fit: scale-down;}
+	
+#Shonia {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;}
+	
+	#ShInfo {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		height:auto;
+		width:auto;}
+	
+	#ShPic {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display: flex;
+		overflow: hidden;}
+	
+		#PShonia {max-width: 100%;
+			height: auto;
+			object-fit: scale-down;}
+	
+/* The Guild */
+
+#C2 {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+	
+	#Mae {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		margin-bottom:25px;}
+	
+		#MInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#MPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+		
+			#PMae {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+		
+	#Timber {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		margin-bottom:25px;}
+	
+		#TimInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#TimPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+			
+			#PTimber {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+		
+	#Liz {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		margin-bottom:25px;}
+	
+		#LInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#LPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+		
+			#PLiz {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+		
+	#Onyx {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		margin-bottom:25px;}
+	
+		#OnyInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#OnyPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+		
+		#POnyx {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+	
+	#Luna {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		margin-bottom:25px;}
+	
+		#LuInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#LuPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+		
+			#PLuna {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+		
+	#Irnek {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		display:grid;
+		grid-template-columns: 1fr;
+		max-height: 100%;
+		}
+	
+		#IrInfo {border-style:solid;
+		border-width:5px;
+		border-color:yellow;
+			margin-right:10px;
+			max-height: 375px;}
+		
+		#IrPic{border-style:solid;
+		border-width:5px;
+		border-color:green;
+			margin-left:10px;
+			max-height: 375px;}
+		
+			#PIrnek {width:100%;
+				max-height: 375px;
+				object-fit: scale-down;}
+		
+/* Get Started */
+
+#C3 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;}
+	
+	#Creator {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		margin: 10px;
+		padding: 25px;}
+	
+		#Form1 {border-style:solid;
+		border-width:5px;
+		border-color:orange;}
+		
+		#Form2{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+		
+		#Form3{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+		
+		#Form4{border-style:solid;
+		border-width:5px;
+		border-color:orange;
+			margin-top: 25px;}
+	
+	#Resources {border-style:solid;
+	border-width:5px;
+	border-color:green;
+		margin-top:15px;}
+
+#C4 {border-style:solid;
+	border-width:5px;
+	border-color:red;
+		display:grid;
+		grid-template-columns: 1fr;
+		gap: 15px;}
+	
+	#RefClass {border-style:solid;
+	border-width:5px;
+	border-color:orange;
+		margin-bottom: 15px;}
+	
+	#RefRaces {border-style:solid;
+	border-width:5px;
+	border-color:yellow;
+		margin-bottom: 15px;}
+	
+	#RefAbility {border-style:solid;
+	border-width:5px;
+	border-color:green;
+		margin-bottom: 25px;}
+	
+#C5 {border-style:solid;
+	border-width:5px;
+	border-color:red;}
+}
+
+
+
+
+
+
+
+
+
+}
