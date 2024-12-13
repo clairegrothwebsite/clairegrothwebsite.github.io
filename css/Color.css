@@ -1,0 +1,364 @@
+/*Fonts*/
+	@font-face {
+		font-family:'Aloevera-OVoWO';
+		src: url('../Font/Aloevera-OVoWO.ttf');}
+
+/*Universal*/
+p, ul {font-family:optima,verdana,arial;
+		font-size: 100%;}
+
+h1 {font-family: cursive, "brush script MT";
+	letter-spacing: .5px;}
+
+h3 {font-family:optima,verdana,arial;}
+
+#C1 {background-color: lightgrey;}
+
+	div#B2Page {font-size: 90%;
+		text-align: right;
+		padding-top: 5px;
+		padding-right: 10px;
+		}
+		
+		#B2Page>h1 {
+				letter-spacing: 2px;}
+		#B2Page>h2 {letter-spacing: 1.5px;}
+
+		
+		@media only screen and (max-width: 755px)
+			{
+				#B2Page>h1 {
+				font-size: 163%;
+				padding-top:7px;
+				letter-spacing: .25px;}
+				#B2Page>h2 {
+				font-size: 130%;
+				letter-spacing: 0px;}
+			}
+	
+nav {background-color: #3D405B;
+		font-size: 120%;}
+	
+	/* Underline Box Nav */
+	.growUnderline {
+		margin: 0px;
+		padding: 0px;
+ 		height: 2px;
+ 		width: 100%;
+	  background-color: #F4F1DE;
+	  transform: scaleX(0); 
+	  transition: transform 0.5s;}
+	
+	.Link1 {border-left: 2px solid #F4F1DE;
+		padding:0px;}
+	
+		.Link1:hover .growUnderline{
+  			transform: scaleX(.75);}
+  			
+		.Link1 a {color: #F4F1DE;
+			text-decoration: none;}
+			
+	.Link2 {border-left: 2px solid #F4F1DE;}
+	
+		.Link2:hover .growUnderline{
+  			transform: scaleX(.75);}
+		
+		.Link2 a {color: #F4F1DE;
+			text-decoration: none;}
+			
+	.Link3 {border-left: 2px solid #F4F1DE;}
+	
+		.Link3:hover .growUnderline{
+  			transform: scaleX(.75);}
+  			
+		.Link3 a {color: #F4F1DE;
+			text-decoration: none;}
+			
+	.Link4 {border-left: 2px solid #F4F1DE;}
+	
+		.Link4:hover .growUnderline{
+  			transform: scaleX(.75);}
+  			
+		.Link4 a {color: #F4F1DE;
+			text-decoration: none;}
+			
+	.Link4 {border-right: 2px solid #F4F1DE;}
+
+footer {background-color: lightgrey;} 
+	
+	#Footer1 {text-align: justify;}
+	
+	#Grid2 {}
+	
+	#Grid2 p#Follow {font-size: 12px;}
+
+h2 {font-family:'Aloevera-OVoWO';
+	letter-spacing: .75px;}
+
+/* Bottom Nav */
+#Navigation {background-color: #3D405B;
+			padding: 10px;
+			width: auto;}
+	
+	#Navigation a {color: #F4F1DE;
+			text-decoration: none;
+			}
+
+/* Home */
+#WholeScreen1 {background-color: lightgrey;}
+
+#B21 p {background-color: lightgrey;
+		text-align: center;}
+
+#IntroB22 {background-color: lightgrey;
+			line-height: 140%;
+			text-align: justify;}
+
+#B3Savand {background-color: lightgrey;
+			line-height: 155%;}
+	
+	#B3Savand h2 {text-align:center;}
+	
+	#B3Savand p {text-align:justify;}
+
+#B4Goldenlight {background-color: lightgrey;}
+	
+	#GoldenIntro h2{text-align: center;}
+	
+	#GoldenIntro p{line-height: 155%;
+					text-align: justify;}
+
+/*Action Page*/
+
+#B2 {background-color: lightgrey;
+	font-size: 125%;
+	text-align: center;}
+	
+	#B2 p {font-family: 'Aloevera-OVoWO';
+	line-height: 155%;
+	letter-spacing: .75px;}
+
+/*Savand*/
+
+#B2History {background-color: lightgrey;}
+	
+	#B2History h2 {text-align: center;}
+	
+	#B2History p {text-align: justify;}
+
+#Otrar {background-color: lightgrey;}
+	
+	#OInfo {background-color: lightgrey;}
+	
+	#OInfo h2 {text-align: center;}
+
+#Taradlands {background-color: lightgrey;}
+	
+	#TInfo {background-color: lightgrey;}
+	
+	#TInfo h2 {text-align: center;}
+
+#Thiir {background-color: lightgrey;}
+	
+	#ThInfo {background-color: lightgrey;}
+	
+	#ThInfo h2 {text-align: center;}
+
+#Floura {background-color: lightgrey;}
+	
+	#FInfo {background-color: lightgrey;}
+	
+	#FInfo h2 {text-align: center;}
+
+#Findlaire {background-color: lightgrey;}
+	
+	#FiInfo {background-color: lightgrey;}
+	
+	#FiInfo h2 {text-align: center;}
+
+#Sirdaz {background-color: lightgrey;}
+	
+	#SInfo {background-color: lightgrey;}
+	
+	#SInfo h2 {text-align: center;}
+
+#Shonia {background-color: lightgrey;}
+	
+	#ShInfo {background-color: lightgrey;}
+	
+	#ShInfo h2 {text-align: center;}
+
+.Info {text-align: justify;
+		line-height: 135%;}
+
+/*The Guild*/
+
+#Mae {background-color: lightgrey;}
+
+	#MInfo p{font-size: 110%;}
+	
+	#MInfo ul{line-height: 155%;
+			text-align: justify;}
+			
+	#MInfo li {padding:3px;}
+
+#Timber {background-color: lightgrey;}
+
+	#TimInfo p{font-size: 110%;}
+	
+	#TimInfo ul{line-height: 155%;
+			text-align: justify;}
+			
+	#TimInfo li {padding:3px;}
+
+#Liz {background-color: lightgrey;}
+
+	#LInfo p{font-size: 110%;}
+	
+	#LInfo ul{line-height: 155%;
+			text-align: justify;}
+			
+	#LInfo li {padding:3px;}
+
+#Onyx {background-color: lightgrey;}
+
+	#OnyInfo p{font-size: 110%;}
+	
+	#OnyInfo ul{line-height: 155%;
+			text-align: justify;}
+			
+	#OnyInfo li {padding:3px;}
+
+#Luna {background-color: lightgrey;}
+	
+	#LuInfo p{font-size: 110%;}
+	
+	#LuInfo ul{line-height: 155%;
+			text-align: justify;}
+			
+	#LuInfo li {padding:3px;}
+
+#Irnek {background-color: lightgrey;}
+
+	#IrInfo p{font-size: 110%;}
+	
+	#IrInfo ul{line-height: 155%;
+			text-align: justify;}
+	
+	#IrInfo li {padding:3px;}
+/*Get Started*/
+
+#Creator {background-color: lightgrey;}
+	
+	#Form1 {background-color: pink;
+			line-height: 200%;
+			padding:10px;}
+	
+	#Form2 {background-color: pink;
+			line-height: 200%;
+			padding:10px;}
+			
+		#Form2 p {font-size: 85%;}
+		
+		#Scores {text-align: justify;
+				margin-left:10%;
+				margin-right:10%;
+				font-size: 100%;}
+	
+	#Form3 {background-color: pink;
+			line-height: 200%;
+			padding:10px;}
+			
+		#BoxInfo:focus {background-color: lightgrey;}
+		
+	#Form4 {line-height: 200%;
+			padding:10px;}
+			
+		input#submit:hover {background-color: darkgrey;}
+	
+#Resources {background-color: lightgrey;
+			padding: 10px;}
+		
+		#Resources p {line-height: 155%;
+						text-align: justify;
+						margin-top: -2%;}
+						
+		#Resources a {text-decoration: none;}
+
+		
+		#Resources h2 {text-align:center;}
+		
+		#Resources p.Label {font-family: cursive, "brush script MT";
+				letter-spacing: .5px;
+				text-align: center;
+				margin-bottom: 3%;
+				font-weight: bold;}
+		
+.Headers {background-color: lightgrey;
+		text-align: center;}
+		
+#RefClass {background-color: lightgrey;
+			padding:10px;
+			}
+
+	#RefClass p {line-height: 155%;
+						text-align: justify;
+						margin: -2px;
+						margin-right:5%;
+						margin-left:5%;
+						margin-bottom: 2%;}
+		
+		#RefClass h3 {text-align:center;}
+		
+		#RefClass em.Label {font-family: cursive, "brush script MT";
+				letter-spacing: .5px;
+				text-align: center;
+				margin-bottom: 3%;
+				font-weight: bold;}
+
+#RefRaces {background-color: lightgrey;
+			padding: 10px;}
+			
+		#RefRaces p {line-height: 155%;
+						text-align: justify;
+						margin: -2px;
+						margin-right:5%;
+						margin-left:5%;
+						margin-bottom: 2%;}
+		
+		#RefRaces h3 {text-align:center;}
+		
+		#RefRaces em.Label {font-family: cursive, "brush script MT";
+				letter-spacing: .5px;
+				text-align: center;
+				margin-bottom: 3%;
+				font-weight: bold;}
+
+#RefAbility {background-color: lightgrey;
+			padding: 10px;}
+		
+		#RefAbility p {line-height: 155%;
+						text-align: justify;
+						margin: -2px;
+						margin-right:5%;
+						margin-left:5%;
+						margin-bottom: 2%;}
+		
+		#RefAbility h3 {text-align:center;}
+		
+		#RefAbility em.Label {font-family: cursive, "brush script MT";
+				letter-spacing: .5px;
+				text-align: center;
+				margin-bottom: 3%;
+				font-weight: bold;}
+
+#C5 {background-color: lightgrey;
+	padding: 10px;}
+	
+	#C5 h2 {text-align: center;}
+	
+	#C5 p {text-align: justify;
+			line-height: 155%}
+			
+	#C5 a {text-decoration: none;}
+						
