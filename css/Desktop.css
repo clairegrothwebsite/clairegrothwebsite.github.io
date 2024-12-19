@@ -156,9 +156,15 @@ footer {
 	
 	#GoldenIntro {padding: 25px;}
 	
-	#GoldenPic {}
-		
-		#P2Guild {width:100%;}
+	#GoldenPic {display:flex;
+			align-items: center;
+			justify-content: center;}
+			
+			#P2Guild {
+			margin: 10px auto;
+			max-width:90%;
+			max-height: 100%;
+			}
 	
 /* Action Form Page */
 
@@ -487,7 +493,18 @@ footer {
 			{#B2Intro {
 			height: auto;
 			grid-template-columns: 1fr;}
+			
+			#GoldenPic {display:flex;
+			align-items: center;
+			justify-content: center;}
+			
+			#P2Guild {
+			margin: 10px auto;
+			max-width:90%;
+			max-height: 100%;
 			}
+}
+			
 	/* Page 2 */
 		@media only screen and (max-width: 1250px)
 			{#Otrar {
