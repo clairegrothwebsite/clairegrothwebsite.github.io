@@ -1,9 +1,9 @@
 /* Color Pallets - 
 #F4F1DE-white 
-#E07A5F-orangered 
+#F89F65-orange 
 #3D405B-dark blue 
 #8AA89C-green 
-#F0C57F-yellow */
+#FDC581-yellow */
 
 /* Universal */
 @media only screen and (orientation: landscape)
@@ -144,7 +144,7 @@ footer {
 #B3Savand {
 		margin-top: 25px;
 		margin-bottom: 25px;
-		padding: 10px;}
+		padding: 25px;}
 	
 	#P1Savand {
 		width:90%;
@@ -154,7 +154,7 @@ footer {
 		display:grid;
 		grid-template-columns: 1fr 1fr;}
 	
-	#GoldenIntro {padding: 10px;}
+	#GoldenIntro {padding: 25px;}
 	
 	#GoldenPic {}
 		
@@ -316,7 +316,8 @@ footer {
 		#MInfo {
 			margin-right:10px;
 			max-height: 375px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#MPic{
 			margin-left:10px;
@@ -336,7 +337,8 @@ footer {
 		#TimInfo {
 			margin-right:10px;
 			max-height: 375px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#TimPic{
 			margin-left:10px;
@@ -356,7 +358,8 @@ footer {
 		#LInfo {
 			margin-right:10px;
 			max-height: 400px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#LPic{
 			margin-left:10px;
@@ -376,7 +379,8 @@ footer {
 		#OnyInfo {
 			margin-right:10px;
 			max-height: 375px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#OnyPic{
 			margin-left:10px;
@@ -396,7 +400,8 @@ footer {
 		#LuInfo {
 			margin-right:10px;
 			max-height: 375px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#LuPic{
 			margin-left:10px;
@@ -416,7 +421,8 @@ footer {
 		#IrInfo {
 			margin-right:10px;
 			max-height: 415px;
-			margin: 10px;}
+			margin: 10px;
+			padding: 15px;}
 		
 		#IrPic{
 			margin-left:10px;
@@ -437,18 +443,21 @@ footer {
 		margin: 10px;
 		padding: 25px;}
 	
-		#Form1 { }
+		#Form1 {padding: 15px;}
 		
 		#Form2{
-			margin-top: 25px;}
+			margin-top: 25px;
+			padding: 15px;}
 		
 		#Form3{
-			margin-top: 25px;}
+			margin-top: 25px;
+			padding: 15px;}
 		
-		#Form4{ }
+		#Form4{ padding: 15px;}
 	
 	#Resources {
-		margin: 10px;}
+		margin: 10px;
+		margin-bottom: 15px;}
 
 #C4 {
 		display:grid;
@@ -457,14 +466,10 @@ footer {
 	
 	#RefClass {
 		margin-top: 10px;
-		margin-left: 10px;
-		margin-right: 5px;
 		margin-bottom: 15px;}
 	
 	#RefRaces {
 		margin-top: 10px;
-		margin-left: 5px;
-		margin-right: 10px;
 		margin-bottom: 15px;}
 	
 	#RefAbility {

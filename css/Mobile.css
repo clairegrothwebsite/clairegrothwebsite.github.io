@@ -60,7 +60,8 @@ nav {
 		margin-top: 25px;
 		margin-bottom: 25px;
 		margin-left: -10%;
-		margin-right: -10%;}
+		margin-right: -10%;
+		padding: 5px;}
 	
 footer {
 		margin-left: -10%;
@@ -139,7 +140,8 @@ footer {
 		
 #B3Savand {
 		margin-top: 25px;
-		margin-bottom: 25px;}
+		margin-bottom: 25px;
+		padding: 25px;}
 	
 	#P1Savand {
 		width:90%;
@@ -149,7 +151,7 @@ footer {
 		display:grid;
 		grid-template-columns: 1fr;}
 	
-	#GoldenIntro { }
+	#GoldenIntro { padding: 25px;}
 	
 	#GoldenPic {
 		margin: 0 auto;}
@@ -441,26 +443,28 @@ footer {
 
 #C3 {
 		display:grid;
-		grid-template-columns: 1fr;}
+		grid-template-columns: 1fr;
+		}
 	
 	#Creator {
-		margin: 10px;
 		padding: 25px;}
 	
-		#Form1 { }
+		#Form1 {padding: 15px;}
 		
 		#Form2{
-			margin-top: 25px;}
+			margin-top: 25px;
+			padding: 15px;}
 		
 		#Form3{
-			margin-top: 25px;}
+			margin-top: 25px;
+			padding: 15px;}
 		
 		#Form4{
-			margin-top: 25px;}
+			padding: 15px;}
 	
 	#Resources {
-		margin: 10px;
-		margin-top:15px;}
+		margin-top: 10px;
+		margin-bottom: 15px;}
 
 #C4 {
 		display:grid;
@@ -468,16 +472,16 @@ footer {
 		gap: 15px;}
 	
 	#RefClass {
-		margin: 10px;
+		margin-top: 10px;
 		margin-bottom: 15px;}
 	
 	#RefRaces {
-		margin: 10px;
+		margin-top: 10px;
 		margin-bottom: 15px;}
 	
 	#RefAbility {
-		margin: 10px;
-		margin-bottom: 25px;}
+		margin-top: 15px;
+		margin-bottom: 15px;}
 	
 #C5 { }
 }

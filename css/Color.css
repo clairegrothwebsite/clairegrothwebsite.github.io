@@ -4,6 +4,8 @@
 		src: url('../Font/Aloevera-OVoWO.ttf');}
 
 /*Universal*/
+
+
 p, ul {font-family:optima,verdana,arial;
 		font-size: 100%;}
 
@@ -12,20 +14,24 @@ h1 {font-family: cursive, "brush script MT";
 
 h3 {font-family:optima,verdana,arial;}
 
-#C1 {background-color: lightgrey;}
+#C1 { }
 
 	div#B2Page {font-size: 90%;
 		text-align: right;
 		padding-top: 5px;
-		padding-right: 10px;
-		}
+		padding-right: 10px;}
 		
 		#B2Page>h1 {
-				letter-spacing: 2px;}
-		#B2Page>h2 {letter-spacing: 1.5px;}
+				letter-spacing: 2px;
+				color: #FDC581;
+				-webkit-text-stroke: .25px #F89F65;
+				}
+		#B2Page>h2 {letter-spacing: 1.5px;
+					color: #FDC581;
+					-webkit-text-stroke: .25px #F89F65;}
 
 		
-		@media only screen and (max-width: 755px)
+		@media only screen and (max-width: 760px)
 			{
 				#B2Page>h1 {
 				font-size: 163%;
@@ -84,44 +90,51 @@ nav {background-color: #3D405B;
 			
 	.Link4 {border-right: 2px solid #F4F1DE;}
 
-footer {background-color: lightgrey;} 
+footer {background-color: #3D405B;} 
 	
-	#Footer1 {text-align: justify;}
+	#Footer1 {text-align: justify;
+	color:#F4F1DE;}
 	
 	#Grid2 {}
 	
-	#Grid2 p#Follow {font-size: 12px;}
+	#Grid2 p#Follow {font-size: 12px;
+					color: #F4F1DE;}
 
 h2 {font-family:'Aloevera-OVoWO';
-	letter-spacing: .75px;}
+	letter-spacing: .75px;
+	color: #3D405B;
+	-webkit-text-stroke: .25px #8AA89C;}
 
 /* Bottom Nav */
-#Navigation {background-color: #3D405B;
+#Navigation {border: solid 2px #8AA89C;
+			background-color: #F4F1DE;
 			padding: 10px;
 			width: auto;}
 	
-	#Navigation a {color: #F4F1DE;
+	#Navigation a {color: #3D405B;
 			text-decoration: none;
 			}
 
 /* Home */
-#WholeScreen1 {background-color: lightgrey;}
+#WholeScreen1 {background-color: #F4F1DE;}
 
 #B21 p {background-color: lightgrey;
 		text-align: center;}
 
-#IntroB22 {background-color: lightgrey;
+#IntroB22 {border: solid 2px #3D405B;
+			background-color: #8AA89C;
 			line-height: 140%;
-			text-align: justify;}
+			text-align: justify;
+			padding: 15px;}
 
-#B3Savand {background-color: lightgrey;
+#B3Savand {
 			line-height: 155%;}
 	
 	#B3Savand h2 {text-align:center;}
 	
 	#B3Savand p {text-align:justify;}
 
-#B4Goldenlight {background-color: lightgrey;}
+#B4Goldenlight {background-color: rgb(253, 197, 129, 65%);}
 	
 	#GoldenIntro h2{text-align: center;}
 	
@@ -130,61 +143,80 @@ h2 {font-family:'Aloevera-OVoWO';
 
 /*Action Page*/
 
-#B2 {background-color: lightgrey;
+#B2 {border: solid #FDC581 2px;
+	border-radius: 75px;
+	background-color: rgb(253, 197, 129, 65%);
 	font-size: 125%;
-	text-align: center;}
+	text-align: center;
+	padding: 25px;}
 	
 	#B2 p {font-family: 'Aloevera-OVoWO';
 	line-height: 155%;
-	letter-spacing: .75px;}
+	letter-spacing: .75px;
+	color: #3D405B;
+	}
 
 /*Savand*/
 
-#B2History {background-color: lightgrey;}
+#B2History {}
 	
 	#B2History h2 {text-align: center;}
 	
 	#B2History p {text-align: justify;}
 
-#Otrar {background-color: lightgrey;}
+#Otrar { }
 	
-	#OInfo {background-color: lightgrey;}
+	#OInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#OInfo h2 {text-align: center;}
 
-#Taradlands {background-color: lightgrey;}
+#Taradlands { }
 	
-	#TInfo {background-color: lightgrey;}
+	#TInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#TInfo h2 {text-align: center;}
 
-#Thiir {background-color: lightgrey;}
+#Thiir { }
 	
-	#ThInfo {background-color: lightgrey;}
+	#ThInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#ThInfo h2 {text-align: center;}
 
-#Floura {background-color: lightgrey;}
+#Floura { }
 	
-	#FInfo {background-color: lightgrey;}
+	#FInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#FInfo h2 {text-align: center;}
 
-#Findlaire {background-color: lightgrey;}
+#Findlaire { }
 	
-	#FiInfo {background-color: lightgrey;}
+	#FiInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#FiInfo h2 {text-align: center;}
 
-#Sirdaz {background-color: lightgrey;}
+#Sirdaz { }
 	
-	#SInfo {background-color: lightgrey;}
+	#SInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#SInfo h2 {text-align: center;}
 
-#Shonia {background-color: lightgrey;}
+#Shonia { }
 	
-	#ShInfo {background-color: lightgrey;}
+	#ShInfo {background-color: rgb(138, 168, 156, 65%);
+		padding: 15px;
+		border: solid 5px #F4F1DE;}
 	
 	#ShInfo h2 {text-align: center;}
 
@@ -193,54 +225,72 @@ h2 {font-family:'Aloevera-OVoWO';
 
 /*The Guild*/
 
-#Mae {background-color: lightgrey;}
+#Mae {background-color: #F4F1DE;}
 
-	#MInfo p{font-size: 110%;}
+	#MInfo {padding: 15px;}
+	#MInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#MInfo ul{line-height: 155%;
 			text-align: justify;}
 			
 	#MInfo li {padding:3px;}
 
-#Timber {background-color: lightgrey;}
+#Timber {background-color: #F4F1DE;}
 
-	#TimInfo p{font-size: 110%;}
+	#TimInfo {padding: 15px;}
+	#TimInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#TimInfo ul{line-height: 155%;
 			text-align: justify;}
 			
 	#TimInfo li {padding:3px;}
 
-#Liz {background-color: lightgrey;}
+#Liz {background-color: #F4F1DE;}
 
-	#LInfo p{font-size: 110%;}
+	#LInfo {padding: 15px;}
+	#LInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#LInfo ul{line-height: 155%;
 			text-align: justify;}
 			
 	#LInfo li {padding:3px;}
 
-#Onyx {background-color: lightgrey;}
+#Onyx {background-color: #F4F1DE;}
 
-	#OnyInfo p{font-size: 110%;}
+	#OnyInfo {padding: 15px;}
+	#OnyInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#OnyInfo ul{line-height: 155%;
 			text-align: justify;}
 			
 	#OnyInfo li {padding:3px;}
 
-#Luna {background-color: lightgrey;}
+#Luna {background-color: #F4F1DE;}
 	
-	#LuInfo p{font-size: 110%;}
+	#LuInfo {padding: 15px;}
+	#LuInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#LuInfo ul{line-height: 155%;
 			text-align: justify;}
 			
 	#LuInfo li {padding:3px;}
 
-#Irnek {background-color: lightgrey;}
-
-	#IrInfo p{font-size: 110%;}
+#Irnek {background-color: #F4F1DE;}
+	
+	#IrInfo {padding: 15px;}
+	#IrInfo p{font-size: 110%;
+			color: #8AA89C;
+			-webkit-text-stroke: .5px #3D405B;}
 	
 	#IrInfo ul{line-height: 155%;
 			text-align: justify;}
@@ -248,15 +298,17 @@ h2 {font-family:'Aloevera-OVoWO';
 	#IrInfo li {padding:3px;}
 /*Get Started*/
 
-#Creator {background-color: lightgrey;}
+#Creator {background-color: #8AA89C;
+		margin-top: 10px;
+		margin-bottom: 15px;}
 	
-	#Form1 {background-color: pink;
+	#Form1 {background-color: #F4F1DE;
 			line-height: 200%;
-			padding:10px;}
-	
-	#Form2 {background-color: pink;
+			padding:15px;}
+				
+	#Form2 {background-color: #F4F1DE;
 			line-height: 200%;
-			padding:10px;}
+			padding:15px;}
 			
 		#Form2 p {font-size: 85%;}
 		
@@ -265,25 +317,26 @@ h2 {font-family:'Aloevera-OVoWO';
 				margin-right:10%;
 				font-size: 100%;}
 	
-	#Form3 {background-color: pink;
+	#Form3 {background-color: #F4F1DE;
 			line-height: 200%;
-			padding:10px;}
+			padding:15px;}
 			
 		#BoxInfo:focus {background-color: lightgrey;}
 		
 	#Form4 {line-height: 200%;
 			padding:10px;}
 			
-		input#submit:hover {background-color: darkgrey;}
+		input#submit:hover {background-color: #FDC581;}
 	
-#Resources {background-color: lightgrey;
-			padding: 10px;}
+#Resources {background-color: #F4F1DE;;
+			padding: 15px;}
 		
 		#Resources p {line-height: 155%;
 						text-align: justify;
 						margin-top: -2%;}
 						
-		#Resources a {text-decoration: none;}
+		#Resources a {text-decoration: none;
+			color: #F89F65;}
 
 		
 		#Resources h2 {text-align:center;}
@@ -294,11 +347,11 @@ h2 {font-family:'Aloevera-OVoWO';
 				margin-bottom: 3%;
 				font-weight: bold;}
 		
-.Headers {background-color: lightgrey;
+.Headers {background-color: rgb(253, 197, 129, 65%);
 		text-align: center;}
 		
-#RefClass {background-color: lightgrey;
-			padding:10px;
+#RefClass {background-color: rgb(138, 168, 156, 65%);
+			padding:15px;
 			}
 
 	#RefClass p {line-height: 155%;
@@ -308,7 +361,8 @@ h2 {font-family:'Aloevera-OVoWO';
 						margin-left:5%;
 						margin-bottom: 2%;}
 		
-		#RefClass h3 {text-align:center;}
+		#RefClass h3 {text-align:center;
+						color: #3D405B;}
 		
 		#RefClass em.Label {font-family: cursive, "brush script MT";
 				letter-spacing: .5px;
@@ -316,8 +370,8 @@ h2 {font-family:'Aloevera-OVoWO';
 				margin-bottom: 3%;
 				font-weight: bold;}
 
-#RefRaces {background-color: lightgrey;
-			padding: 10px;}
+#RefRaces {background-color: rgb(138, 168, 156, 65%);
+			padding: 15px;}
 			
 		#RefRaces p {line-height: 155%;
 						text-align: justify;
@@ -326,7 +380,8 @@ h2 {font-family:'Aloevera-OVoWO';
 						margin-left:5%;
 						margin-bottom: 2%;}
 		
-		#RefRaces h3 {text-align:center;}
+		#RefRaces h3 {text-align:center;
+						color: #3D405B;}
 		
 		#RefRaces em.Label {font-family: cursive, "brush script MT";
 				letter-spacing: .5px;
@@ -334,8 +389,8 @@ h2 {font-family:'Aloevera-OVoWO';
 				margin-bottom: 3%;
 				font-weight: bold;}
 
-#RefAbility {background-color: lightgrey;
-			padding: 10px;}
+#RefAbility {background-color: rgb(138, 168, 156, 65%);
+			padding: 15px;}
 		
 		#RefAbility p {line-height: 155%;
 						text-align: justify;
@@ -344,7 +399,8 @@ h2 {font-family:'Aloevera-OVoWO';
 						margin-left:5%;
 						margin-bottom: 2%;}
 		
-		#RefAbility h3 {text-align:center;}
+		#RefAbility h3 {text-align:center;
+						color: #3D405B;}
 		
 		#RefAbility em.Label {font-family: cursive, "brush script MT";
 				letter-spacing: .5px;
@@ -352,7 +408,7 @@ h2 {font-family:'Aloevera-OVoWO';
 				margin-bottom: 3%;
 				font-weight: bold;}
 
-#C5 {background-color: lightgrey;
+#C5 {background-color: #F4F1DE;
 	padding: 10px;}
 	
 	#C5 h2 {text-align: center;}
@@ -360,5 +416,6 @@ h2 {font-family:'Aloevera-OVoWO';
 	#C5 p {text-align: justify;
 			line-height: 155%}
 			
-	#C5 a {text-decoration: none;}
+	#C5 a {text-decoration: none;
+			color: #F89F65;}
 						
