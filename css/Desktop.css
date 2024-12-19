@@ -181,7 +181,7 @@ footer {
 
 #Otrar {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;
 		margin-top: 25px;}
@@ -201,7 +201,7 @@ footer {
 
 #Taradlands {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;}
 	
@@ -221,7 +221,7 @@ footer {
 
 #Thiir {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;}
 	
@@ -239,7 +239,7 @@ footer {
 	
 #Floura {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;}
 	
@@ -257,7 +257,7 @@ footer {
 	
 #Findlaire {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;}
 	
@@ -276,7 +276,7 @@ footer {
 	
 #Sirdaz {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;
 		margin-bottom: 25px;}
 	
@@ -294,7 +294,7 @@ footer {
 	
 #Shonia {
 		display:grid;
-		grid-template-columns: 350px 1fr;
+		grid-template-columns: 500px 1fr;
 		gap: 15px;}
 	
 	#ShInfo {
