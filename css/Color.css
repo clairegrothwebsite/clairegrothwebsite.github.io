@@ -9,7 +9,7 @@
 p, ul {font-family:optima,verdana,arial;
 		font-size: 100%;}
 
-h1 {font-family: cursive, "brush script MT";
+h1 {font-family: cursive, "brush script MT", "Bradley Hand", luminari, georgia;
 	letter-spacing: .5px;}
 
 h3 {font-family:optima,verdana,arial;}
@@ -100,7 +100,7 @@ footer {background-color: #3D405B;}
 	#Grid2 p#Follow {font-size: 12px;
 					color: #F4F1DE;}
 
-h2 {font-family:'Aloevera-OVoWO';
+h2 {font-family:'Aloevera-OVoWO', courier;
 	letter-spacing: .75px;
 	color: #3D405B;
 	-webkit-text-stroke: .25px #8AA89C;}
@@ -150,7 +150,7 @@ h2 {font-family:'Aloevera-OVoWO';
 	text-align: center;
 	padding: 25px;}
 	
-	#B2 p {font-family: 'Aloevera-OVoWO';
+	#B2 p {'Aloevera-OVoWO', courier;
 	line-height: 155%;
 	letter-spacing: .75px;
 	color: #3D405B;
@@ -341,7 +341,7 @@ h2 {font-family:'Aloevera-OVoWO';
 		
 		#Resources h2 {text-align:center;}
 		
-		#Resources p.Label {font-family: cursive, "brush script MT";
+		#Resources p.Label {font-family: cursive, "brush script MT", "Bradley Hand", luminari, georgia;
 				letter-spacing: .5px;
 				text-align: center;
 				margin-bottom: 3%;
@@ -364,7 +364,7 @@ h2 {font-family:'Aloevera-OVoWO';
 		#RefClass h3 {text-align:center;
 						color: #3D405B;}
 		
-		#RefClass em.Label {font-family: cursive, "brush script MT";
+		#RefClass em.Label {font-family: cursive, "brush script MT", "Bradley Hand", luminari, georgia;
 				letter-spacing: .5px;
 				text-align: center;
 				margin-bottom: 3%;
@@ -383,7 +383,7 @@ h2 {font-family:'Aloevera-OVoWO';
 		#RefRaces h3 {text-align:center;
 						color: #3D405B;}
 		
-		#RefRaces em.Label {font-family: cursive, "brush script MT";
+		#RefRaces em.Label {font-family: cursive, "brush script MT", "Bradley Hand", luminari, georgia;
 				letter-spacing: .5px;
 				text-align: center;
 				margin-bottom: 3%;
@@ -402,7 +402,7 @@ h2 {font-family:'Aloevera-OVoWO';
 		#RefAbility h3 {text-align:center;
 						color: #3D405B;}
 		
-		#RefAbility em.Label {font-family: cursive, "brush script MT";
+		#RefAbility em.Label {font-family: cursive, "brush script MT", "Bradley Hand", luminari, georgia;
 				letter-spacing: .5px;
 				text-align: center;
 				margin-bottom: 3%;
